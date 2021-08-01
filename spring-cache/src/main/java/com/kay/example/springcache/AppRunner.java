@@ -2,11 +2,13 @@ package com.kay.example.springcache;
 
 import com.kay.example.springcache.entity.Student;
 import com.kay.example.springcache.repo.StudentRepository;
-import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
